@@ -1,0 +1,20 @@
+.owl-carousel .item{
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar h6{
+    color: white;
+}
+
+.row .col-8 .owl-carousel .item{
+    height: 450px;
+    margin: 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
