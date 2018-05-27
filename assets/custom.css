@@ -10,11 +10,29 @@
     color: white;
 }
 
-.row .col-8 .owl-carousel .item{
+.row .col-md-9 .owl-carousel .item{
     height: 450px;
     margin: 10px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.twitter{
+    margin-top: 50px;
+}
+
+.deskripsi-berita{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto; 
+    height: 200px; 
+    background-color: aquamarine;
+}
+
+.tabel-harga{
+    padding: 15px 10px 35px 10px;
+    margin-top: 30px;
 }
