@@ -2,11 +2,11 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 
 body {
-    background: linear-gradient(#16a085 #fff);
+    background-color: #f5f5f5 !important;
 }
 
 .owl-carousel .item{
-    height: 350px;
+    height: 380px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,7 +41,6 @@ body {
 
 .tabel-harga{
     padding: 15px 10px 35px 10px;
-    margin-top: 30px;
 }
 
 .hm-gradient {
@@ -83,4 +82,121 @@ body {
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
+
+.keterangan-disperindag{
+    height: 380px;
+    width: auto;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 150, 136));
+    color: white;
+}
+
+div.keterangan-disperindag > div.fixed-bottom p{
+    margin-bottom: 8px;
+}
+
+div.keterangan-disperindag > div.fixed-bottom a{
+    margin-bottom: 40px;
+    color: aliceblue; 
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+div.keterangan-disperindag > div.fixed-bottom a:hover{
+    margin-bottom: 40px;
+    color: black; 
+    display: inline-flex;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+div.card > div.card-body a{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+div.card > div.card-body h3{
+    overflow: hidden;
+    font: normal 20px/20px Courier;
+}
+
+.berita-desperindag{
+    margin-top: 10px; 
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+div.card{
+    margin-bottom: 10px;
+}
 
