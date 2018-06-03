@@ -204,7 +204,7 @@ div.tabel-disperindag > table >caption{
 @media (max-width:540px){
 	.hps-con-disperindag{
         padding-left: 0px;
-    padding-right: 0px;
+        padding-right: 0px;
     }
 }
 
