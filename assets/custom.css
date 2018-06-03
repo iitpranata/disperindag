@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.row .col-md-9 .owl-carousel .item{
+div.row > div.col-md-9 > div.berita > div.item{
     height: 450px;
     margin: 10px;
     -webkit-background-size: cover;
@@ -125,7 +125,7 @@ div.card > div.card-body h3{
 }
 
 section {
-    padding: 60px 0;
+    padding: 30px 0px 10px 0px;
 }
 
 section .section-title {
