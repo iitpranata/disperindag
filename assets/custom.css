@@ -131,7 +131,7 @@ section .section-title {
     text-transform: uppercase;
 }
 
-div.tabel-harga > table >caption{
+div.tabel-disperindag > table >caption{
     padding-left: 10px;
     border-left: 3px solid #007b5e;
     padding-bottom: 6px;
