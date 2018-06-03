@@ -39,10 +39,6 @@ div.row > div.col-md-9 > div.berita > div.item{
     background-color: aquamarine;
 }
 
-.tabel-harga{
-    padding: 15px 10px 35px 10px;
-}
-
 .hm-gradient {
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
