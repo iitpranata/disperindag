@@ -182,7 +182,6 @@ div.col-md-6 > div.card > div.card-body > h5{
     color: #ffffff;
     text-decoration: none !important;
     background-color: transparent;
-    -webkit-text-decoration-skip: objects;
 }
 #footer ul.social li{
 	padding: 3px 0;
