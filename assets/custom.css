@@ -131,6 +131,15 @@ section .section-title {
     text-transform: uppercase;
 }
 
+div.tabel-harga > table >caption{
+    padding-left: 10px;
+    border-left: 3px solid #007b5e;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-bottom: 10px;
+    caption-side: top;
+}
+
 #footer h5{
 	padding-left: 10px;
     border-left: 3px solid #eeeeee;
@@ -190,6 +199,13 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+
+@media (max-width:540px){
+	.hps-con-disperindag{
+        padding-left: 0px;
+    padding-right: 0px;
+    }
 }
 
 div.card{
