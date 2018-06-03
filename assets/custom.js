@@ -17,3 +17,13 @@ $('.berita').owlCarousel({
     autoplayHoverPause:false,
     dots: true,
 })
+
+$('.galeri').owlCarousel({
+    animateOut: 'fadeOut',
+    items:1,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:8000,
+    autoplayHoverPause:false,
+    dots: true,
+})

@@ -26,6 +26,10 @@ div.row > div.col-md-9 > div.berita > div.item{
     background-size: cover;
 }
 
+div.galeri > div.item{
+    margin: 10px;
+}
+
 .twitter{
     margin-top: 50px;
 }
@@ -131,9 +135,18 @@ section .section-title {
     text-transform: uppercase;
 }
 
-div.tabel-disperindag > table >caption{
+div.tabel-disperindag > table > caption{
     padding-left: 10px;
-    border-left: 3px solid #007b5e;
+    border-left: 3px solid #009688;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-bottom: 10px;
+    caption-side: top;
+}
+
+div.col-md-6 > div.card > div.card-body > h5{
+    padding-left: 10px;
+    border-left: 3px solid #009688;
     padding-bottom: 6px;
     padding-top: 6px;
     margin-bottom: 10px;
