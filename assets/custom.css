@@ -5,6 +5,14 @@ body {
     background-color: #f5f5f5 !important;
 }
 
+.owl-carousel .itema{
+    height: 190px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .owl-carousel .item{
     height: 380px;
     -webkit-background-size: cover;
